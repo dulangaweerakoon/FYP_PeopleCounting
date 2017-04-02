@@ -1,0 +1,5 @@
+Running: xsim.dir/doHistStretch/xsimk.exe -maxdeltaid 10000 -noieeewarnings -simmode gui -wdb doHistStretch.wdb -simrunnum 0 -socket 28479
+Design successfully loaded
+Design Loading CPU Usage: 1591 ms
+Simulation completed
+Simulation CPU Usage: 127670 ms

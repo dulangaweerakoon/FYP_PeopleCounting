@@ -1,0 +1,6 @@
+23:39:51 **** Incremental Build of configuration Debug for project contrastApp ****
+make all 
+make: Nothing to be done for `all'.
+
+23:39:51 Build Finished (took 195ms)
+

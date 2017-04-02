@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Mar 31 01:17:58 2017
+# Process ID: 9460
+# Log file: A:/FYP/HLSTutorials/hist_stretch/solution1/.autopilot/db/ip_tmp/vivado.log
+# Journal file: A:/FYP/HLSTutorials/hist_stretch/solution1/.autopilot/db/ip_tmp\vivado.jou
+#-----------------------------------------------------------
+source run_vivado.tcl -notrace
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - a:/Vivado/Vivado/2014.2/data/boards/board_parts/artix7/arty/C.0/board_part.xml, The board part 'xc7a35ticsg324-1L' is either not supported or invalid.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'a:/Vivado/Vivado/2014.2/data/ip'.
+create_ip: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 192.813 ; gain = 13.906
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'doHistStretch_ap_fdiv_14_no_dsp'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'doHistStretch_ap_fdiv_14_no_dsp' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'doHistStretch_ap_fdiv_14_no_dsp'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'doHistStretch_ap_fdiv_14_no_dsp' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+generate_target: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 200.844 ; gain = 1.996
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'doHistStretch_ap_fmul_2_max_dsp'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'doHistStretch_ap_fmul_2_max_dsp' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'doHistStretch_ap_fmul_2_max_dsp'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'doHistStretch_ap_fmul_2_max_dsp' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'doHistStretch_ap_sitofp_4_no_dsp'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'doHistStretch_ap_sitofp_4_no_dsp' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'doHistStretch_ap_sitofp_4_no_dsp'...
+WARNING: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'doHistStretch_ap_sitofp_4_no_dsp' does not support 'Verilog Simulation' output products, delivering 'VHDL Simulation' output products instead.
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 01:18:35 2017...

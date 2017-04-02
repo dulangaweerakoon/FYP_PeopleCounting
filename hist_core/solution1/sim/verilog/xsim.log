@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# xsim v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Thu Mar 30 21:51:20 2017
+# Process ID: 9012
+# Log file: A:/FYP/HLSTutorials/hist_core/solution1/sim/verilog/xsim.log
+# Journal file: A:/FYP/HLSTutorials/hist_core/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/doHist/xsim_script.tcl
+# xsim {doHist} -maxdeltaid 10000 -tclbatch {doHist.tcl} -noieeewarnings
+Vivado Simulator 2014.2
+Time resolution is 1 ps
+source doHist.tcl
+## run all
+$finish called at time : 1538885400 ps : File "doHist.autotb.v" Line 433
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 56.953 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Mar 30 21:51:30 2017...

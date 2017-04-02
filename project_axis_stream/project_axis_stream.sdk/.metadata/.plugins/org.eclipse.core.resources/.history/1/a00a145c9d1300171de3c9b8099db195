@@ -1,0 +1,14 @@
+/*
+ * Empty C++ Application
+ */
+#include <stdio.h>
+#include <xparameters.h>
+#include "xdogain.h"
+#include "xaxidma.h"
+
+XDogain doGain;
+
+int main()
+{
+	return 0;
+}

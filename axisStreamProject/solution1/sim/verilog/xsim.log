@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# xsim v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Mar 27 00:44:02 2017
+# Process ID: 8284
+# Log file: A:/FYP/HLSTutorials/axisStreamProject/solution1/sim/verilog/xsim.log
+# Journal file: A:/FYP/HLSTutorials/axisStreamProject/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/doGain/xsim_script.tcl
+# xsim {doGain} -maxdeltaid 10000 -tclbatch {doGain.tcl} -noieeewarnings
+Vivado Simulator 2014.2
+Time resolution is 1 ps
+source doGain.tcl
+## run all
+$finish called at time : 10445400 ps : File "doGain.autotb.v" Line 478
+## quit
+INFO: [Common 17-206] Exiting xsim at Mon Mar 27 00:44:10 2017...

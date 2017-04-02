@@ -1,0 +1,13 @@
+
+****** Vivado v2014.2 (64-bit)
+  **** SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+  **** IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - a:/Vivado/Vivado/2014.2/data/boards/board_parts/artix7/arty/C.0/board_part.xml, The board part 'xc7a35ticsg324-1L' is either not supported or invalid.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'a:/Vivado/Vivado/2014.2/data/ip'.
+ipx::add_bus_interface: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 193.348 ; gain = 7.625
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 30 21:56:18 2017...

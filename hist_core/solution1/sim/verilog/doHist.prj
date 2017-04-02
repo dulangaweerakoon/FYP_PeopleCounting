@@ -1,0 +1,7 @@
+verilog xil_defaultlib "AESL_autobram_histo.v"
+verilog xil_defaultlib "AESL_axi_slave_CRTL_BUS.v"
+verilog xil_defaultlib "AESL_axi_s_inStream.v"
+verilog xil_defaultlib "doHist.autotb.v"
+verilog xil_defaultlib "doHist.v"
+verilog xil_defaultlib "doHist_CRTL_BUS_s_axi.v"
+

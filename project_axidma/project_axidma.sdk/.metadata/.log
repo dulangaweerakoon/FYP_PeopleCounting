@@ -1,0 +1,12 @@
+!SESSION 2017-04-02 02:44:37.102 -----------------------------------------------
+eclipse.buildId=2014.2
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data A:/FYP/HLSTutorials/project_axidma/project_axidma.sdk
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-02 02:47:38.859
+!MESSAGE Indexed 'hello_world_bsp' (135 sources, 153 headers) in 7.29 sec: 6,728 declarations; 32,316 references; 69 unresolved inclusions; 9 syntax errors; 38 unresolved names (0.10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-02 02:47:39.868
+!MESSAGE Indexed 'hello_world' (2 sources, 25 headers) in 0.94 sec: 961 declarations; 1,291 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

@@ -1,0 +1,126 @@
+13:50:03 INFO  : Processing command line option -hwspec A:/FYP/HLSTutorials/project_axis_stream/project_axis_stream.sdk/design_1_wrapper.hdf.
+23:39:46 INFO  : Processing command line option -hwspec A:/FYP/HLSTutorials/project_axis_stream/project_axis_stream.sdk/design_1_wrapper.hdf.
+23:39:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:47:09 INFO  : ps7_init is completed.
+11:47:09 INFO  : ps7_post_config is completed.
+11:47:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:48:48 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:48:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:50:04 ERROR : No such port: Detecting COM Ports..
+11:52:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:52:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:57:13 INFO  : ps7_init is completed.
+11:57:13 INFO  : ps7_post_config is completed.
+11:57:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:02:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:02:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:06:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:07:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:07:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:09:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:09:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:09:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:752)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:252)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+12:20:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:22:08 INFO  : Processing command line option -hwspec A:/FYP/HLSTutorials/project_axis_stream/project_axis_stream.sdk/design_1_wrapper.hdf.
+12:22:18 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:30:00 INFO  : ps7_init is completed.
+12:30:00 INFO  : ps7_post_config is completed.
+12:30:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:31:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:32:02 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target selection failed.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:703)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+12:33:38 INFO  : ps7_init is completed.
+12:33:38 INFO  : ps7_post_config is completed.
+12:33:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:46:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:47:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:47:18 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target selection failed.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:703)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+12:50:51 INFO  : ps7_init is completed.
+12:50:51 INFO  : ps7_post_config is completed.
+12:50:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:56:08 INFO  : ps7_init is completed.
+12:56:09 INFO  : ps7_post_config is completed.
+12:56:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:15:03 INFO  : FPGA configured successfully with bitstream "A:/FYP/HLSTutorials/project_axis_stream/project_axis_stream.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:24:45 INFO  : Processing command line option -hwspec A:/FYP/HLSTutorials/project_axis_stream/project_axis_stream.sdk/design_1_wrapper.hdf.
+13:24:55 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:26:26 INFO  : FPGA configured successfully with bitstream "A:/FYP/HLSTutorials/project_axis_stream/project_axis_stream.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:28:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:28:30 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Error downloading program to target: 
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.loadProgram(XilinxAppLaunchConfigurationDelegate.java:762)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:643)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+13:29:44 INFO  : ps7_init is completed.
+13:29:44 INFO  : ps7_post_config is completed.
+13:29:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:35:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:35:11 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target selection failed.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:703)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:254)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+13:37:17 INFO  : ps7_init is completed.
+13:37:17 INFO  : ps7_post_config is completed.
+13:37:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:45:36 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+13:45:36 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+18:57:00 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.read(BufferedReader.java:175)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:724)
+18:57:00 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.

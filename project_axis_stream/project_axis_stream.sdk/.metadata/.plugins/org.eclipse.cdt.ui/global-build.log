@@ -1,0 +1,132 @@
+13:27:41 **** Incremental Build of configuration Debug for project testAxiStream ****
+make all 
+make: Nothing to be done for `all'.
+13:27:54 **** Clean-only build of configuration Debug for project testAxi2 ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  testAxi2.elf.size  testAxi2.elf
+ 
+13:27:56 **** Incremental Build of configuration Debug for project testAxi2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxi2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:40:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../testAxi2_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
+                 from ../../testAxi2_bsp/ps7_cortexa9_0/include/xdogain.h:20,
+                 from ../src/helloworld.c:37:
+../../testAxi2_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
+ void print( const char *ptr);
+      ^
+make: *** [src/helloworld.o] Error 1
+13:28:06 **** Incremental Build of configuration Debug for project testAxiStream ****
+make all 
+make: Nothing to be done for `all'.
+13:28:51 **** Incremental Build of configuration Debug for project testAxi2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxi2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:40:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../testAxi2_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
+                 from ../../testAxi2_bsp/ps7_cortexa9_0/include/xdogain.h:20,
+                 from ../src/helloworld.c:37:
+../../testAxi2_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
+ void print( const char *ptr);
+      ^
+make: *** [src/helloworld.o] Error 1
+13:29:31 **** Incremental Build of configuration Debug for project testAxiStream ****
+make all 
+make: Nothing to be done for `all'.
+13:33:27 **** Auto Build of configuration Debug for project testAxiStream ****
+make all 
+make: Nothing to be done for `all'.
+13:34:19 **** Auto Build of configuration Debug for project testAxiStream ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxiStream_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:50:16: error: 'init_platform' was not declared in this scope
+  init_platform();
+                ^
+../src/main.cc:52:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*)TX_BUFFER_BASE;
+       ^
+make: *** [src/main.o] Error 1
+13:34:33 **** Incremental Build of configuration Debug for project testAxi2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxi2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:40:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../testAxi2_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
+                 from ../../testAxi2_bsp/ps7_cortexa9_0/include/xdogain.h:20,
+                 from ../src/helloworld.c:37:
+../../testAxi2_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
+ void print( const char *ptr);
+      ^
+make: *** [src/helloworld.o] Error 1
+13:34:42 **** Incremental Build of configuration Debug for project testAxiStream ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxiStream_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:50:16: error: 'init_platform' was not declared in this scope
+  init_platform();
+                ^
+../src/main.cc:52:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*)TX_BUFFER_BASE;
+       ^
+make: *** [src/main.o] Error 1
+13:35:40 **** Auto Build of configuration Debug for project testAxiStream ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxiStream_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buffer_TX' [-Wunused-variable]
+  int *m_dma_buffer_TX = (int*)TX_BUFFER_BASE;
+       ^
+Finished building: ../src/main.cc
+ 
+Building file: ../src/platform.c
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxiStream_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: testAxiStream.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../testAxiStream_bsp/ps7_cortexa9_0/lib -o "testAxiStream.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: testAxiStream.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size testAxiStream.elf  |tee "testAxiStream.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 158876	   2348	  38104	 199328	  30aa0	testAxiStream.elf
+Finished building: testAxiStream.elf.size
+ 
+13:36:13 **** Incremental Build of configuration Debug for project testAxi2 ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../testAxi2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:40:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^
+In file included from ../../testAxi2_bsp/ps7_cortexa9_0/include/xil_io.h:74:0,
+                 from ../../testAxi2_bsp/ps7_cortexa9_0/include/xdogain.h:20,
+                 from ../src/helloworld.c:37:
+../../testAxi2_bsp/ps7_cortexa9_0/include/xil_printf.h:39:6: note: previous declaration of 'print' was here
+ void print( const char *ptr);
+      ^
+make: *** [src/helloworld.o] Error 1
+13:37:05 **** Incremental Build of configuration Debug for project testAxiStream ****
+make all 
+make: Nothing to be done for `all'.

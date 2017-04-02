@@ -1,0 +1,66 @@
+@I [SIM-47] Using XSIM for RTL simulation.
+@I [SIM-14] Instrumenting C test bench ...
+   Build using "A:/Vivado/Vivado_HLS/2014.2/msys/bin/g++.exe"
+   Compiling apatb_doHist.cpp
+   Compiling core.cpp_pre.cpp.tb.cpp
+   Compiling test_core.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+@I [SIM-302] Generating test vectors ... 
+@I [SIM-333] Generating C post check test bench ...
+@I [SIM-12] Generating RTL test bench ...
+@I [SIM-323] Starting verilog simulation. 
+@I [SIM-15] Starting XSIM ...
+@I [SIM-316] Starting C post checking ...
+Load image A:\FYP\HLSTutorials\test.jpg
+Image Rows:240 Cols:320
+
+A:\FYP\HLSTutorials\hist_core\solution1\sim\verilog>call xelab xil_defaultlib.apatb_doHist_top -prj doHist.prj --lib "ieee_proposed=./ieee_proposed" -s doHist  
+Vivado Simulator 2014.2
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: a:/Vivado/Vivado/2014.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_doHist_top -prj doHist.prj --lib ieee_proposed=./ieee_proposed -s doHist 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "AESL_autobram_histo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_autobram_histo
+INFO: [VRFC 10-165] Analyzing Verilog file "AESL_axi_slave_CRTL_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CRTL_BUS
+INFO: [VRFC 10-165] Analyzing Verilog file "AESL_axi_s_inStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_inStream
+INFO: [VRFC 10-165] Analyzing Verilog file "doHist.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_doHist_top
+INFO: [VRFC 10-165] Analyzing Verilog file "doHist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module doHist
+INFO: [VRFC 10-165] Analyzing Verilog file "doHist_CRTL_BUS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module doHist_CRTL_BUS_s_axi
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.doHist_CRTL_BUS_s_axi(C_ADDR_WID...
+Compiling module xil_defaultlib.doHist_default
+Compiling module xil_defaultlib.AESL_autobram_histo
+Compiling module xil_defaultlib.AESL_axi_s_inStream
+Compiling module xil_defaultlib.AESL_axi_slave_CRTL_BUS
+Compiling module xil_defaultlib.apatb_doHist_top
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot doHist
+
+****** xsim v2014.2 (64-bit)
+  **** SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+  **** IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+    ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/doHist/xsim_script.tcl
+# xsim {doHist} -maxdeltaid 10000 -tclbatch {doHist.tcl} -noieeewarnings
+Vivado Simulator 2014.2
+Time resolution is 1 ps
+source doHist.tcl
+## run all
+$finish called at time : 1538885400 ps : File "doHist.autotb.v" Line 433
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 56.953 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Mar 30 21:51:30 2017...
+Load image A:\FYP\HLSTutorials\test.jpg
+Image Rows:240 Cols:320
+@I [SIM-1000] *** C/RTL co-simulation finished: PASS ***

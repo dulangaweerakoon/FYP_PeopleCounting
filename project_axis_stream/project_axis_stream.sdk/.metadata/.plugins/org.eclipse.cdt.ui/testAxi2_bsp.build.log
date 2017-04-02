@@ -1,0 +1,125 @@
+13:14:35 **** Build of project testAxi2_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v8_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/canps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/canps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dogain_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/dogain_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v8_0/src"
+make -C ps7_cortexa9_0/libsrc/axidma_v8_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axidma"
+"Running Make libs in ps7_cortexa9_0/libsrc/canps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/canps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling canps"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+
+cc1.exe: out of memory allocating 65536 bytes
+make[1]: *** [xdevcfg_intr.o] Error 1
+arm-xilinx-eabi-gcc: error: CreateProcess: No such file or directory
+make[1]: *** [xdevcfg_selftest.o] Error 1
+make[1]: *** [xdevcfg_sinit.o] Error -1073741502
+make[1]: *** [clean] Error -1073741523
+make[1]: Target `libs' not remade because of errors.
+make: *** [ps7_cortexa9_0/libsrc/devcfg_v3_1/src/make.libs] Error 2
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/dmaps_v2_0/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/dogain_v1_0/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/emacps_v2_0/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/gpiops_v2_1/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/iicps_v2_1/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/qspips_v3_0/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/scugic_v2_1/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/scutimer_v2_0/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/scuwdt_v2_0/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/sdps_v2_1/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/standalone_v4_1/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/ttcps_v2_0/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/uartps_v2_1/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/usbps_v2_1/src/make.libs] Error 1455
+process_begin: CreateProcess(C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, C:\Users\Dulanga\AppData\Local\Temp\make11808-1.bat, ...) failed.
+make (e=1455): The paging file is too small for this operation to complete.
+
+make: *** [ps7_cortexa9_0/libsrc/xadcps_v2_0/src/make.libs] Error 1455
+make: Target `all' not remade because of errors.
+
+13:22:39 Build Finished (took 8m:4s.459ms)
+

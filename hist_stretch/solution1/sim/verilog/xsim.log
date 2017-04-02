@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# xsim v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Mar 31 01:23:51 2017
+# Process ID: 9464
+# Log file: A:/FYP/HLSTutorials/hist_stretch/solution1/sim/verilog/xsim.log
+# Journal file: A:/FYP/HLSTutorials/hist_stretch/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/doHistStretch/xsim_script.tcl
+# xsim {doHistStretch} -maxdeltaid 10000 -tclbatch {doHistStretch.tcl} -noieeewarnings
+Vivado Simulator 2014.2
+Time resolution is 1 ps
+source doHistStretch.tcl
+## run all
+Note: ****** INFORMATION ONLY ******
+C_A_WIDTH =               32
+C_A_FRACTION_WIDTH =      0
+C_RESULT_WIDTH =          32
+C_RESULT_FRACTION_WIDTH = 24
+Latency of core =         4
+Maximum latency of core = 6
+AXI interface latency =   0
+Output delay latency =    0
+Internal latency of core excluding handling AXI flow control = 4
+Time: 0 ps  Iteration: 0
+Note: 
+******************************************************
+  renorm_and_round_logic.vhd :
+    FULL_MANT_RND1_DEL is using fast_input
+    which will be faster, but create more FFs.
+******************************************************
+Time: 0 ps  Iteration: 0
+Note: ****** INFORMATION ONLY ******
+C_A_WIDTH =               32
+C_A_FRACTION_WIDTH =      24
+C_RESULT_WIDTH =          32
+C_RESULT_FRACTION_WIDTH = 24
+Latency of core =         14
+Maximum latency of core = 28
+AXI interface latency =   0
+Output delay latency =    0
+Internal latency of core excluding handling AXI flow control = 14
+Time: 0 ps  Iteration: 0
+Note: ****** INFORMATION ONLY ******
+C_A_WIDTH =               32
+C_A_FRACTION_WIDTH =      24
+C_RESULT_WIDTH =          32
+C_RESULT_FRACTION_WIDTH = 24
+Latency of core =         2
+Maximum latency of core = 6
+AXI interface latency =   0
+Output delay latency =    0
+Internal latency of core excluding handling AXI flow control = 2
+Time: 0 ps  Iteration: 0
+$finish called at time : 768745400 ps : File "doHistStretch.autotb.v" Line 483
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:02:27 . Memory (MB): peak = 57.211 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 31 01:26:22 2017...

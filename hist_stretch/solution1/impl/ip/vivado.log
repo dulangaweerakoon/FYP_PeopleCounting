@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Fri Mar 31 01:28:41 2017
+# Process ID: 6068
+# Log file: A:/FYP/HLSTutorials/hist_stretch/solution1/impl/ip/vivado.log
+# Journal file: A:/FYP/HLSTutorials/hist_stretch/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+CRITICAL WARNING: [Board 49-4] Problem parsing board_part file - a:/Vivado/Vivado/2014.2/data/boards/board_parts/artix7/arty/C.0/board_part.xml, The board part 'xc7a35ticsg324-1L' is either not supported or invalid.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'a:/Vivado/Vivado/2014.2/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'doHistStretch_ap_fdiv_14_no_dsp'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'doHistStretch_ap_fdiv_14_no_dsp'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'doHistStretch_ap_fmul_2_max_dsp'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'doHistStretch_ap_fmul_2_max_dsp'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'doHistStretch_ap_sitofp_4_no_dsp'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'doHistStretch_ap_sitofp_4_no_dsp'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'a:/Vivado/Vivado/2014.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 01:29:03 2017...

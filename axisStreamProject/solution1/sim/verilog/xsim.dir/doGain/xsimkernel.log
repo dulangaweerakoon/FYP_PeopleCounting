@@ -1,0 +1,5 @@
+Running: xsim.dir/doGain/xsimk.exe -maxdeltaid 10000 -noieeewarnings -simmode gui -wdb doGain.wdb -simrunnum 0 -socket 35266
+Design successfully loaded
+Design Loading CPU Usage: 1138 ms
+Simulation completed
+Simulation CPU Usage: 1310 ms

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="core.cpp" path="A:\FYP\HLSTutorials\hist_stretch\core.cpp"/>
+    <originFiles name="core.h" path="A:\FYP\HLSTutorials\hist_stretch\core.h"/>
+  </source>
+  <testbench>
+    <originFiles name="test_core.cpp" path="A:\FYP\HLSTutorials\hist_stretch\test_core.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

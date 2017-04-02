@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sat Apr 01 23:50:05 2017
+# Process ID: 11316
+# Log file: A:/FYP/HLSTutorials/project_hist/project_hist.runs/impl_1/design_1_wrapper.vdi
+# Journal file: A:/FYP/HLSTutorials/project_hist/project_hist.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

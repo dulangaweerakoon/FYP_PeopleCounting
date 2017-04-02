@@ -1,0 +1,100 @@
+/*
+ * Empty C++ Application
+ */
+
+#include <stdio.h>
+#include <xaxidma.h>
+#include "xdohist.h"
+#include "xdohiststretch.h"
+
+#define SIZE_ARR (320*240)
+
+#define MEM_BASE_ADDR 0x40400000
+#define TX_BUFFER_BASE (MEM_BASE_ADDR + 0x00100000)
+#define RX_BUFFER_BASE (MEM_BASE_ADDR + 0x0000000)
+
+unsigned char *m_dma_buffer_TX = (unsigned char*)TX_BUFFER_BASE;
+unsigned char *m_dma_buffer_RX = (unsigned char*)RX_BUFFER_BASE;
+
+unsigned int hist_sw[256];
+unsigned char imgOut[SIZE_ARR];
+unsigned char imgIn_HW[SIZE_ARR];
+
+unsigned int *hist_hw = (unsigned int *) 0x40000000;
+
+XAxiDma axiDma;
+int initDMA(){
+	XAxiDma_Config *CfgPtr;
+	CfgPtr =  XAxiDma_LookupConfig(XPAR_AXIDMA_0_DEVICE_ID);
+
+	XAxiDma_IntrDisable(&axiDma,XAXIDMA_IRQ_ALL_MASK,XAXIDMA_DEVICE_TO_DMA)
+	XAxiDma_IntrDisable(&axiDma,XAXIDMA_IRQ_ALL_MASK,XAXIDMA_DMA_TO_DEVICE)
+
+	return XST_SUCCESS;
+}
+
+XDohist doHist;
+XDohiststretch doHistStretch;
+int initDoHist(){
+	int status;
+
+	XDohist_Config *doHist_cfg;
+	doHist_cfg = XDohist_LookupConfig(XPAR_DOHIST_0_DEVICE_ID);
+	if (!doHist_cfg){
+		printf("Error loading config for doHist_cfg\n");
+	}
+	status = XDohist_CfgInitialize(&doHist,doHist_cfg);
+	if (status != XST_SUCCESS){
+		printf("Error Initializing for doHist\n");
+	}
+
+	return status;
+}
+
+int initDoHistStretch(){
+
+	int status;
+
+		XDohiststretch_Config *doHistStretch_cfg;
+		doHistStretch_cfg = XDohiststretch_LookupConfig(XPAR_DOHISTSTRETCH_0_DEVICE_ID);
+		if (!doHistStretch_cfg){
+			printf("Error loading config for doHistStretch_cfg\n");
+		}
+		status = XDohiststretch_CfgInitialize(&doHistStretch,doHistStretch_cfg);
+		if (status != XST_SUCCESS){
+			printf("Error Initializing for doHistStretch\n");
+		}
+
+		return status;
+}
+
+void doHistSW(unsigned char *img, unsigned int *hist){
+
+	for (int idx = 0; idx < 256; idx++){
+		hist[idx] = 0;
+	}
+
+	for (int idxImg = 0; idxImg < (320*240); idxImg++){
+		hist[img[idxImg]] = hist[img[idxImg]] + 1;
+	}
+}
+
+void doHistStretchSW(unsigned char *imgIn, unsigned char *imgOut,unsigned char xMin, unsigned char xMax){
+	float xMax_minus_xMin = xMax-xMin;
+	for (int idxImg = 0;idxImg < (320*240);idxImg++){
+		float y_t_float = ((imgIn[idxImg] - xMin)/(xMax_minus_xMin))*255;
+		imgOut[idxImg] = y_t_float;
+	}
+}
+int main()
+{
+	initDMA();
+	initDoHist();
+	initDoHistStretch();
+	//AxiTimerHelper axiTimer;
+
+	printf("Doing histogram on SW\n");
+	//axiTimer.startTimer();
+	doHistSW(img,hist_sw);
+	return 0;
+}

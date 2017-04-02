@@ -1,0 +1,29 @@
+17:34:55 **** Auto Build of configuration Debug for project contrastApp2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -I../../contrastApp2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+In file included from ../../contrastApp2_bsp/ps7_cortexa9_0/include/xaxidma_bd.h:123:0,
+                 from ../../contrastApp2_bsp/ps7_cortexa9_0/include/xaxidma_bdring.h:93,
+                 from ../../contrastApp2_bsp/ps7_cortexa9_0/include/xaxidma.h:469,
+                 from ../src/main.cc:6:
+../src/main.cc: In function 'int initDMA()':
+../../contrastApp2_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:297:23: error: expected ';' before 'Xil_Out32'
+ #define XAxiDma_Out32 Xil_Out32
+                       ^
+../../contrastApp2_bsp/ps7_cortexa9_0/include/xaxidma_hw.h:334:5: note: in expansion of macro 'XAxiDma_Out32'
+     XAxiDma_Out32((BaseAddress) + (RegOffset), (Data))
+     ^
+../../contrastApp2_bsp/ps7_cortexa9_0/include/xaxidma.h:668:3: note: in expansion of macro 'XAxiDma_WriteReg'
+   XAxiDma_WriteReg((InstancePtr)->RegBase + \
+   ^
+../src/main.cc:33:2: note: in expansion of macro 'XAxiDma_IntrDisable'
+  XAxiDma_IntrDisable(&axiDma,XAXIDMA_IRQ_ALL_MASK,XAXIDMA_DMA_TO_DEVICE)
+  ^
+../src/main.cc:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+make: *** [src/main.o] Error 1
+
+17:34:56 Build Finished (took 585ms)
+

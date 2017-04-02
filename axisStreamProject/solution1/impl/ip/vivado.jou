@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Mar 27 01:07:36 2017
+# Process ID: 9352
+# Log file: A:/FYP/HLSTutorials/axisStreamProject/solution1/impl/ip/vivado.log
+# Journal file: A:/FYP/HLSTutorials/axisStreamProject/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
